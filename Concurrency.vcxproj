@@ -147,10 +147,15 @@
   <ItemGroup>
     <ClInclude Include="accidentally_passing_reference_to_protected_data.h" />
     <ClInclude Include="avoid_deadlock.h" />
+    <ClInclude Include="Comparison_locking.h" />
     <ClInclude Include="hierarchy_mutex_avoid_deadlock.h" />
     <ClInclude Include="joining_thread.h" />
     <ClInclude Include="Misc_notes.h" />
+    <ClInclude Include="protecting_rarely_updated_data_shared_mutex.h" />
+    <ClInclude Include="protecting_shared_data_during_initialization.h" />
     <ClInclude Include="thread_safe_stack.h" />
+    <ClInclude Include="unique_lock.h" />
+    <ClInclude Include="waiting_for_event.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

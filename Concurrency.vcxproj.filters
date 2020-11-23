@@ -44,5 +44,20 @@
     <ClInclude Include="Misc_notes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="unique_lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparison_locking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protecting_shared_data_during_initialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protecting_rarely_updated_data_shared_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waiting_for_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
