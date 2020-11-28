@@ -24,6 +24,21 @@
     <ClCompile Include="hierarchy_mutex_avoid_deadlock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="handling_multiple_connections_single_thread_promises.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions_and_promises.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="time_and_clocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="future_chaining_continuations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gathering_results_from_futures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="accidentally_passing_reference_to_protected_data.h">
@@ -57,6 +72,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="waiting_for_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadsafe_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waiting_for_events_with_futures.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="associating_a_task_with future_packaged_task.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
