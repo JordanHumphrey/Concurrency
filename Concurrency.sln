@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30509.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Concurrency", "Concurrency.vcxproj", "{59189BE0-1679-4F66-9A70-D779378EFE03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Designing Lock-based Concurrent DS", "..\..\..\..\Documents\Visual Studio 2019\Multi-Threading\Designing Lock-based Concurrent DS\Designing Lock-based Concurrent DS.vcxproj", "{BF011F39-7185-4BCA-9C8A-06CB3A648075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{59189BE0-1679-4F66-9A70-D779378EFE03}.Release|x64.Build.0 = Release|x64
 		{59189BE0-1679-4F66-9A70-D779378EFE03}.Release|x86.ActiveCfg = Release|Win32
 		{59189BE0-1679-4F66-9A70-D779378EFE03}.Release|x86.Build.0 = Release|Win32
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Debug|x64.ActiveCfg = Debug|x64
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Debug|x64.Build.0 = Debug|x64
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Debug|x86.Build.0 = Debug|Win32
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Release|x64.ActiveCfg = Release|x64
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Release|x64.Build.0 = Release|x64
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Release|x86.ActiveCfg = Release|Win32
+		{BF011F39-7185-4BCA-9C8A-06CB3A648075}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
